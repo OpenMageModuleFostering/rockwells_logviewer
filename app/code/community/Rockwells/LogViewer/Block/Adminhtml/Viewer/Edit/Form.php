@@ -8,7 +8,12 @@ class Rockwells_LogViewer_Block_Adminhtml_Viewer_Edit_Form extends Mage_Adminhtm
         ));
         
         $fieldset = $form->addFieldset('view_file', array());
-
+        $fieldset->addField('enable-linenumbers', 'checkbox', array(
+            'label'     => Mage::helper('logviewer')->__('Enable Line Numbers'),
+            'name'      => 'enable-linenumbers',
+            'checked'   => 'checked',
+            'after_element_html'    => '&nbsp;&nbsp;&nbsp;<label for="enable-linenumbers"><i>' . Mage::helper('logviewer')->__("Uncheck this if you're experiencing bad performance while scrolling") . '</i></label>',
+        ));
         $textarea = $fieldset->addField('log-contents', 'textarea', array(
             'label'     => Mage::helper('logviewer')->__('File Contents'),
             'name'      => 'log-contents',
