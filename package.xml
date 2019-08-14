@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rockwells_LogViewer</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/mit-license.php">MIT License (MIT)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Backend viewer for log files.</summary>
+    <description>Provides way to view log files in the Magento backend. All files in the /var/log directory can be viewed and emptied if desired.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Jukka Viljala</name><user>murkeli</user><email>murkelius@gmail.com</email></author></authors>
+    <date>2015-03-13</date>
+    <time>21:41:58</time>
+    <contents><target name="magecommunity"><dir name="Rockwells"><dir name="LogViewer"><dir name="Block"><dir name="Adminhtml"><dir name="Viewer"><dir name="Edit"><file name="Form.php" hash="f329c2f1d50683d15c5d22a01139aba8"/></dir><file name="Grid.php" hash="6e436266633a5f0ba12953b2b65570ec"/><file name="View.php" hash="d1891de15029897f9ca307c09aad4ad7"/></dir><file name="Viewer.php" hash="f659d3b810b7f276261bdf7d07e87563"/></dir></dir><dir name="Helper"><file name="Data.php" hash="f73a99ff5af3f2863b6039c706c249f2"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="0c90479f83c0fc4b7e6ecf8003d09bc1"/></dir></dir><dir name="etc"><file name="config.xml" hash="876ef0e98060fdfd75a02349947c209f"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="logviewer"><file name="logviewer.xml" hash="ed4cb78b3fbf51e9f9f30d5e72c72fe3"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Rockwells_LogViewer.xml" hash="20cefafd2c0d57a51e980a62054418be"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Rockwells_LogViewer.csv" hash="beab09c3b3d0d978f5533feaf09ea4a2"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="logviewer"><file name="linedtextarea.css" hash="2e594409a47f046919afc51fda73440c"/><file name="linedtextarea.js" hash="074669b1ac7f01b582216011a7a043de"/><file name="load.js" hash="975098b892ed0131038978066a35c09e"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.9.1.0</max></package></required></dependencies>
+</package>

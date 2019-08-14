@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Rockwells_LogViewer",
+    "type": "magento-module",
+    "license": "MIT-License-(MIT)",
+    "homepage": "",
+    "description": "Backend viewer for log files.",
+    "authors": [
+    {
+        "name": "Jukka Viljala",
+        "email": "murkelius@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
